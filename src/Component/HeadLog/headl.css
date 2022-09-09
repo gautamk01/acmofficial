@@ -1,0 +1,112 @@
+.bubble {
+  position: relative;
+  display: flex;
+}
+
+.bubble span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+  animation: animate 5s linear infinite;
+  animation-duration: calc(100s / var(--i));
+}
+
+.bubble span:nth-child(even) {
+  background: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
+}
+
+.bubble span:nth-child(1) {
+  --i: 11;
+}
+.bubble span:nth-child(2) {
+  --i: 12;
+}
+.bubble span:nth-child(3) {
+  --i: 10;
+}
+.bubble span:nth-child(4) {
+  --i: 14;
+}
+.bubble span:nth-child(5) {
+  --i: 23;
+}
+.bubble span:nth-child(6) {
+  --i: 18;
+}
+.bubble span:nth-child(7) {
+  --i: 16;
+}
+.bubble span:nth-child(8) {
+  --i: 19;
+}
+.bubble span:nth-child(9) {
+  --i: 20;
+}
+.bubble span:nth-child(10) {
+  --i: 22;
+}
+.bubble span:nth-child(11) {
+  --i: 25;
+}
+.bubble span:nth-child(12) {
+  --i: 18;
+}
+.bubble span:nth-child(13) {
+  --i: 21;
+}
+.bubble span:nth-child(14) {
+  --i: 15;
+}
+.bubble span:nth-child(15) {
+  --i: 13;
+}
+.bubble span:nth-child(16) {
+  --i: 26;
+}
+.bubble span:nth-child(17) {
+  --i: 31;
+}
+.bubble span:nth-child(18) {
+  --i: 30;
+}
+.bubble span:nth-child(19) {
+  --i: 41;
+}
+.bubble span:nth-child(20) {
+  --i: 34;
+}
+.bubble span:nth-child(21) {
+  --i: 32;
+}
+.bubble span:nth-child(22) {
+  --i: 39;
+}
+.bubble span:nth-child(23) {
+  --i: 38;
+}
+.bubble span:nth-child(24) {
+  --i: 37;
+}
+.bubble span:nth-child(25) {
+  --i: 42;
+}
+.bubble span:nth-child(26) {
+  --i: 44;
+}
+.bubble span:nth-child(27) {
+  --i: 32;
+}
+.bubble span:nth-child(30) {
+  --i: 26;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(58vh) scale(0);
+  }
+}
