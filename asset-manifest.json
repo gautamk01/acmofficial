@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/acmofficial/static/css/main.3215dfa8.css",
+    "main.js": "/acmofficial/static/js/main.273aa4d6.js",
+    "static/media/ACMam.png": "/acmofficial/static/media/ACMam.815e36ef8db6406fcc3f.png",
+    "index.html": "/acmofficial/index.html",
+    "main.3215dfa8.css.map": "/acmofficial/static/css/main.3215dfa8.css.map",
+    "main.273aa4d6.js.map": "/acmofficial/static/js/main.273aa4d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3215dfa8.css",
+    "static/js/main.273aa4d6.js"
+  ]
+}
