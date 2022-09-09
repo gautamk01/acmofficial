@@ -12,15 +12,15 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[6rem]  mx-auto  px-4 text-black bg-slate-700 bg-color ">
       <h1 className="w-full text-[#00df9a] text-3xl font-bold  ml-[-5px]">
-        <img src={Logo} alt="something" className=" h-[3.6rem] sm:h-20"></img>
+        <img src={Logo} alt="something" className=" h-[3.6rem] "></img>
       </h1>
       <ul className="hidden md:flex ">
-        <li className="p-5 ">Home</li>
-        <li className="p-5">Events</li>
-        <li className=" p-5  w-[160px]">why joining us ?</li>
-        <li className="p-5">Clubs</li>
-        <li className=" p-5">Blogs</li>
-        <li className=" p-5">Sponsors</li>
+        <li className="p-5 cursor-pointer">Home</li>
+        <li className="p-5 cursor-pointer">Events</li>
+        <li className=" p-5  w-[160px] cursor-pointer">why joining us ?</li>
+        <li className="p-5 cursor-pointer">Clubs</li>
+        <li className=" p-5 cursor-pointer">Blogs</li>
+        <li className=" p-5 cursor-pointer">Sponsors</li>
       </ul>
       <div onClick={navbar_click} className="block md:hidden">
         {!closer ? (
@@ -45,21 +45,24 @@ const Navbar = () => {
         <h1 className="w-full text-[#00df9a] text-3xl font-bold pt-3 ml-3">
           <img src={Logo} alt="something" className=" h-[3.6rem] "></img>
         </h1>
-        <ul className=" pt-14 uppercase m-5">
+        <ul className=" pt-14 uppercase m-5  uppercase">
           <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
             Home
           </li>
           <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
-            Company
+            Events
           </li>
           <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
-            resources
+            Why joining Us ?
           </li>
           <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
-            About
+            Clubs
           </li>
           <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
-            Contact
+            Blogs
+          </li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold hover:cursor-pointer">
+            Sponsors
           </li>
         </ul>
       </div>
