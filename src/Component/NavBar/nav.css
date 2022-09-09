@@ -1,0 +1,12 @@
+.lds {
+  background-color: cyan;
+  color: aquamarine;
+}
+.bg-color {
+  background: rgb(0, 164, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 164, 230, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
