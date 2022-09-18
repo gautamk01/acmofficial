@@ -1,0 +1,11 @@
+.af {
+  color: black;
+}
+
+.af::before {
+  content: "";
+  background-color: red;
+  display: block;
+  width: 10px;
+  height: 10px;
+}

@@ -1,7 +1,5 @@
-.lds {
-  background-color: cyan;
-  color: aquamarine;
-}
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
 .bg-color {
   background: rgb(0, 164, 230);
   background: linear-gradient(
@@ -9,4 +7,31 @@
     rgba(0, 164, 230, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+.jump {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 2px;
+}
+.jump::after {
+  content: "";
+  display: flex;
+  background: linear-gradient(
+    115deg,
+    rgba(37, 49, 109, 1) 0%,
+    rgba(164, 96, 237, 1) 100%
+  );
+  border-radius: 10px;
+  width: 0;
+  height: 5px;
+  top: 8.5%;
+  transition: 0.5s;
+}
+
+li:hover {
+  color: #104876;
+}
+li:hover.jump::after {
+  content: " ";
+  width: 100%;
 }
