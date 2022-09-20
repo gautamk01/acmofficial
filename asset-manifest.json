@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.f3fe508a.css",
-    "main.js": "/acmofficial/static/js/main.1d836721.js",
+    "main.css": "/acmofficial/static/css/main.321fc719.css",
+    "main.js": "/acmofficial/static/js/main.3a9ff913.js",
     "static/media/ACMam.png": "/acmofficial/static/media/ACMam.815e36ef8db6406fcc3f.png",
     "index.html": "/acmofficial/index.html",
-    "main.f3fe508a.css.map": "/acmofficial/static/css/main.f3fe508a.css.map",
-    "main.1d836721.js.map": "/acmofficial/static/js/main.1d836721.js.map"
+    "main.321fc719.css.map": "/acmofficial/static/css/main.321fc719.css.map",
+    "main.3a9ff913.js.map": "/acmofficial/static/js/main.3a9ff913.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3fe508a.css",
-    "static/js/main.1d836721.js"
+    "static/css/main.321fc719.css",
+    "static/js/main.3a9ff913.js"
   ]
 }
