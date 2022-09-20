@@ -1,11 +1,14 @@
-.af {
-  color: black;
+.gridStyle{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "About Carousel";
 }
-
-.af::before {
-  content: "";
-  background-color: red;
-  display: block;
-  width: 10px;
-  height: 10px;
+.About{
+    grid-area: "About";
+}
+.Carousel{
+    grid-area: "Carousel";
 }
