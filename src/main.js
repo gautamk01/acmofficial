@@ -1,24 +1,22 @@
 import React from "react";
 import Navbar from "./Component/NavBar/navbar";
 import Blog from "./Component/Blog/blog";
-import About from "./Component/About/About";
-import HeadLog from "./Component/HeadLog/HeadLog";
-
-function main_page_component() {
-  return (
-    <div>
-      <HeadLog />
-      <About />
-    </div>
-  );
-}
+import Home from "./Component/Home/home";
+import Club from "./Component/Club/club";
+import { Route, Routes } from "react-router-dom";
 
 export default function Main() {
-  const { rendering_Nav, openBlog } = Navbar();
   return (
     <div>
-      {rendering_Nav}
-      {openBlog ? <Blog /> : main_page_component()}
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/acmofficial" element={<Home />} />
+          <Route path="/club" element={<Club />} />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap");
+
+.club_text {
+  font-family: "Heebo", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.club_text:hover {
+  color: rgba(255, 255, 255, 1);
+}
