@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.321fc719.css",
-    "main.js": "/acmofficial/static/js/main.3a9ff913.js",
+    "main.css": "/acmofficial/static/css/main.11e4f8fb.css",
+    "main.js": "/acmofficial/static/js/main.f85acf29.js",
+    "static/media/p2.jpeg": "/acmofficial/static/media/p2.aa802887ad8a2e9a1448.jpeg",
+    "static/media/p3.jpg": "/acmofficial/static/media/p3.8150b1acb0ab656b3bce.jpg",
+    "static/media/p4.jpg": "/acmofficial/static/media/p4.98f9a8416c8ac8e02499.jpg",
     "static/media/ACMam.png": "/acmofficial/static/media/ACMam.815e36ef8db6406fcc3f.png",
+    "static/media/p5.jpeg": "/acmofficial/static/media/p5.8e6eaaafb120d99d82fa.jpeg",
+    "static/media/p1.jpg": "/acmofficial/static/media/p1.3668eff66bf51e17c7b5.jpg",
     "index.html": "/acmofficial/index.html",
-    "main.321fc719.css.map": "/acmofficial/static/css/main.321fc719.css.map",
-    "main.3a9ff913.js.map": "/acmofficial/static/js/main.3a9ff913.js.map"
+    "main.11e4f8fb.css.map": "/acmofficial/static/css/main.11e4f8fb.css.map",
+    "main.f85acf29.js.map": "/acmofficial/static/js/main.f85acf29.js.map"
   },
   "entrypoints": [
-    "static/css/main.321fc719.css",
-    "static/js/main.3a9ff913.js"
+    "static/css/main.11e4f8fb.css",
+    "static/js/main.f85acf29.js"
   ]
 }
