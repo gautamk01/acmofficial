@@ -2,9 +2,9 @@
 
 .club_text {
   font-family: "Heebo", sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(68, 68, 68, 0.5);
 }
 
 .club_text:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(86, 84, 84);
 }

@@ -1,27 +1,25 @@
-.animation{
-    transition: all 0.5s;
-    animation: pulse 5s  infinite;
+.animation {
+  transition: all 0.5s;
+  animation: pulse 3s infinite;
 }
-.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes pulse {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(0%);
-
   }
   50% {
     opacity: 1;
     transform: translateX(+10%);
-
   }
-  80%{
+  80% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translateX(0%);
   }

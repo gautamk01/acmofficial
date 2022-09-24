@@ -6,20 +6,18 @@ import m3 from "../../img/p3.jpg";
 import m4 from "../../img/p4.jpg";
 import m5 from "../../img/p5.jpeg";
 export default function Club() {
-  const image_array = [m1, m2, m3, m4, m5];
-  const color_change = [
-    "bg-slate-700  ",
-    "bg-red-600 ",
-    "bg-yellow-600 ",
-    "bg-orange-600 ",
-    "bg-blue-600 ",
+  const image_array = [
+    m1,
+    m2,
+    m3,
+    m4,
+    m5,
+    "https://dt19wmazj2dns.cloudfront.net/wp-content/uploads/2022/05/amrita-admission-amritapuri-campus.jpg",
   ];
-  const [token, settoken] = useState(0);
+  const [token, settoken] = useState(1);
   return (
     <div className="main_club flex flex-row h-[86vh] w-[100%] text-white">
-      <div
-        className={`club_area h-[100%] w-[60%] ${color_change[token]} flex flex-wrap justify-center items-center`}
-      >
+      <div className="club_area h-[100%] w-[60%]  flex flex-wrap justify-center items-center  bg-gradient-to-b from-white to-cyan-100 font-poppins">
         <ul>
           <li>
             <a
@@ -27,6 +25,9 @@ export default function Club() {
               className="club_text text-6xl uppercase "
               onMouseEnter={() => {
                 settoken(0);
+              }}
+              onMouseLeave={() => {
+                settoken(5);
               }}
             >
               AI
@@ -39,6 +40,9 @@ export default function Club() {
               onMouseEnter={() => {
                 settoken(1);
               }}
+              onMouseLeave={() => {
+                settoken(5);
+              }}
             >
               CP
             </a>
@@ -49,6 +53,9 @@ export default function Club() {
               className="club_text text-6xl uppercase "
               onMouseEnter={() => {
                 settoken(2);
+              }}
+              onMouseLeave={() => {
+                settoken(5);
               }}
             >
               WEB
@@ -61,6 +68,9 @@ export default function Club() {
               onMouseEnter={() => {
                 settoken(3);
               }}
+              onMouseLeave={() => {
+                settoken(5);
+              }}
             >
               game
             </a>
@@ -72,16 +82,19 @@ export default function Club() {
               onMouseEnter={() => {
                 settoken(4);
               }}
+              onMouseLeave={() => {
+                settoken(5);
+              }}
             >
               Cybers
             </a>
           </li>
         </ul>
       </div>
-      <div className={`image_area  h-[100%] w-[40%] `}>
+      <div className={`image_area  h-[100%] w-[40%]  `}>
         <img
           src={image_array[token]}
-          className=" object-cover h-[100%] w-[100%] "
+          className=" object-cover h-[100%] w-[100%] rounded-lg"
           alt="SOmthing"
         />
       </div>
