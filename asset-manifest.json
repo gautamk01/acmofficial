@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.c7184e1f.css",
-    "main.js": "/acmofficial/static/js/main.b96c5e07.js",
+    "main.css": "/acmofficial/static/css/main.1f9d082d.css",
+    "main.js": "/acmofficial/static/js/main.1d63fc58.js",
     "static/media/image3.jpg": "/acmofficial/static/media/image3.c2d51d49591fdb7aada1.jpg",
     "static/media/image1.jpg": "/acmofficial/static/media/image1.9d6dea471d7be0ba73ee.jpg",
     "static/media/p2.jpeg": "/acmofficial/static/media/p2.aa802887ad8a2e9a1448.jpeg",
     "static/media/image2.jpg": "/acmofficial/static/media/image2.48caa8f6bc1fbb9e8f03.jpg",
     "static/media/p3.jpg": "/acmofficial/static/media/p3.8150b1acb0ab656b3bce.jpg",
+    "static/media/Rectangle 6.png": "/acmofficial/static/media/Rectangle 6.883d806d630b8193be81.png",
+    "static/media/Rectangle 8.png": "/acmofficial/static/media/Rectangle 8.0a79da7c7600d2b8439e.png",
+    "static/media/Rectangle 7.png": "/acmofficial/static/media/Rectangle 7.6ed07baa20674e0a8b82.png",
     "static/media/p4.jpg": "/acmofficial/static/media/p4.98f9a8416c8ac8e02499.jpg",
     "static/media/ACMam.png": "/acmofficial/static/media/ACMam.815e36ef8db6406fcc3f.png",
     "static/media/p5.jpeg": "/acmofficial/static/media/p5.8e6eaaafb120d99d82fa.jpeg",
     "static/media/p1.jpg": "/acmofficial/static/media/p1.3668eff66bf51e17c7b5.jpg",
     "index.html": "/acmofficial/index.html",
-    "main.c7184e1f.css.map": "/acmofficial/static/css/main.c7184e1f.css.map",
-    "main.b96c5e07.js.map": "/acmofficial/static/js/main.b96c5e07.js.map"
+    "main.1f9d082d.css.map": "/acmofficial/static/css/main.1f9d082d.css.map",
+    "main.1d63fc58.js.map": "/acmofficial/static/js/main.1d63fc58.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7184e1f.css",
-    "static/js/main.b96c5e07.js"
+    "static/css/main.1f9d082d.css",
+    "static/js/main.1d63fc58.js"
   ]
 }
