@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.f38403b4.css",
-    "main.js": "/acmofficial/static/js/main.b0f65d40.js",
+    "main.css": "/acmofficial/static/css/main.c7184e1f.css",
+    "main.js": "/acmofficial/static/js/main.b96c5e07.js",
     "static/media/image3.jpg": "/acmofficial/static/media/image3.c2d51d49591fdb7aada1.jpg",
     "static/media/image1.jpg": "/acmofficial/static/media/image1.9d6dea471d7be0ba73ee.jpg",
     "static/media/p2.jpeg": "/acmofficial/static/media/p2.aa802887ad8a2e9a1448.jpeg",
@@ -12,11 +12,11 @@
     "static/media/p5.jpeg": "/acmofficial/static/media/p5.8e6eaaafb120d99d82fa.jpeg",
     "static/media/p1.jpg": "/acmofficial/static/media/p1.3668eff66bf51e17c7b5.jpg",
     "index.html": "/acmofficial/index.html",
-    "main.f38403b4.css.map": "/acmofficial/static/css/main.f38403b4.css.map",
-    "main.b0f65d40.js.map": "/acmofficial/static/js/main.b0f65d40.js.map"
+    "main.c7184e1f.css.map": "/acmofficial/static/css/main.c7184e1f.css.map",
+    "main.b96c5e07.js.map": "/acmofficial/static/js/main.b96c5e07.js.map"
   },
   "entrypoints": [
-    "static/css/main.f38403b4.css",
-    "static/js/main.b0f65d40.js"
+    "static/css/main.c7184e1f.css",
+    "static/js/main.b96c5e07.js"
   ]
 }
