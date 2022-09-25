@@ -11,13 +11,6 @@ function PEP() {
       <Ecard />
       <Ecard />
       <Ecard />
-      <Ecard />
-      <Ecard />
-      <Ecard />
-      <Ecard />
-      <Ecard />
-      <Ecard />
-      <Ecard />
     </div>
   );
 }

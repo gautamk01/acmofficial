@@ -8,9 +8,9 @@ function Ecard() {
   const [title, setTitle] = useState(false);
   console.log(title);
   return (
-    <div className="h-[35%] w-[15%]  m-3   justify-center main">
+    <div className="h-[250px] w-[200px]  m-3  main">
       <div
-        className="h-[60%] w-[100%]  funCard  flex flex-wrap  justify-center "
+        className="h-[90%] w-[100%]  funCard  "
         onMouseEnter={() => {
           setTitle(true);
         }}
@@ -18,22 +18,20 @@ function Ecard() {
           setTitle(false);
         }}
       >
-        <div className="img_box ">
-          {title && (
-            <div className="relative top-[7.3rem] left-[10px] flex ">
-              <a href="http://www.google.com" className=" ml-6">
-                <BsLinkedin />
-              </a>
-              <a href="http://www.google.com" className="ml-6 ">
-                <BsInstagram />
-              </a>
-              <a href="http://www.google.com" className="ml-6">
-                <BsGithub />
-              </a>
-            </div>
-          )}
-        </div>
-
+        <div className="img_box" />
+        {title && (
+          <div className=" flex justify-self-center mt-[10px] self-center">
+            <a href="http://www.google.com" className=" mr-[10px] ">
+              <BsLinkedin />
+            </a>
+            <a href="http://www.google.com" className=" mr-[10px] ">
+              <BsInstagram />
+            </a>
+            <a href="http://www.google.com" className="">
+              <BsGithub />
+            </a>
+          </div>
+        )}
         <div className="ket text-center">
           <div>
             <h1 className=" mb-1 mt-2 font-bold">Gautam Krishna M</h1>
