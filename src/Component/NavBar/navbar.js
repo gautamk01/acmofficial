@@ -26,9 +26,9 @@ const Navbar = () => {
       <div className="flex overflow-hidden justify-between items-center h-[14vh]  mx-auto  px-4 text-black bg-slate-700 bg-color z-10">
         <img src={Logo} alt="something" className=" h-[3.6rem] relative "></img>
         <ul className="hidden md:flex relative">
-          <li className="p-5 cursor-pointer jump ">
-            <Link to="/acmofficial">Home</Link>
-          </li>
+          <Link to="/acmofficial">
+            <li className="p-5 cursor-pointer jump ">Home</li>
+          </Link>
           <li className="p-5 cursor-pointer jump">Events</li>
           <li className=" p-5  w-[170px] cursor-pointer jump ">
             why joining us ?
