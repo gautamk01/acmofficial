@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex overflow-hidden justify-between items-center h-[14vh]  mx-auto  px-4 text-black bg-slate-700 addedbg1 z-10">
+      <div className="flex overflow-hidden justify-between items-center h-[14vh]  mx-auto  px-4 text-black bg-slate-700 bg-color z-10">
         <img src={Logo} alt="something" className=" h-[3.6rem] relative "></img>
         <ul className="hidden md:flex relative">
           <Link to="/acmofficial">

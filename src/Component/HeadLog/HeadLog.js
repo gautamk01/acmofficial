@@ -1,5 +1,5 @@
 import React from "react";
 import "./headl.css";
 export default function HeadLog() {
-  return <div className="bg-[#0c192c] h-[86vh]"></div>;
+  return <div className=" h-[86vh] addedbg2"></div>;
 }

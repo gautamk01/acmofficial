@@ -6,7 +6,7 @@ function About() {
   return (
     <div
       id="AboutUs"
-      className="h-[100vh] w-[100%] gridStyle bg-gradient-to-r from-white to-cyan-200 font-poppins"
+      className="h-[100vh] w-[100%] gridStyle addedbg1  font-poppins"
     >
       <div
         id="details-AboutUs"

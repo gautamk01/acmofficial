@@ -2,11 +2,12 @@
 
 .bg-color {
   background-image: linear-gradient(
-    to left,
-    #185fac,
-    #00a4e6,
-    #00a4e6,
-    #caf0ff
+    to right bottom,
+    #bcf2f9,
+    #b3f1f8,
+    #a9eff8,
+    #9feef7,
+    #94ecf6
   );
 }
 
