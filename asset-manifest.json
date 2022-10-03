@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.18d60baf.css",
-    "main.js": "/acmofficial/static/js/main.88bb4186.js",
+    "main.css": "/acmofficial/static/css/main.ee009c9d.css",
+    "main.js": "/acmofficial/static/js/main.e7e06615.js",
     "static/media/image3.jpg": "/acmofficial/static/media/image3.c2d51d49591fdb7aada1.jpg",
     "static/media/image1.jpg": "/acmofficial/static/media/image1.9d6dea471d7be0ba73ee.jpg",
     "static/media/p2.jpeg": "/acmofficial/static/media/p2.aa802887ad8a2e9a1448.jpeg",
@@ -21,11 +21,11 @@
     "static/media/p5.jpeg": "/acmofficial/static/media/p5.8e6eaaafb120d99d82fa.jpeg",
     "static/media/p1.jpg": "/acmofficial/static/media/p1.3668eff66bf51e17c7b5.jpg",
     "index.html": "/acmofficial/index.html",
-    "main.18d60baf.css.map": "/acmofficial/static/css/main.18d60baf.css.map",
-    "main.88bb4186.js.map": "/acmofficial/static/js/main.88bb4186.js.map"
+    "main.ee009c9d.css.map": "/acmofficial/static/css/main.ee009c9d.css.map",
+    "main.e7e06615.js.map": "/acmofficial/static/js/main.e7e06615.js.map"
   },
   "entrypoints": [
-    "static/css/main.18d60baf.css",
-    "static/js/main.88bb4186.js"
+    "static/css/main.ee009c9d.css",
+    "static/js/main.e7e06615.js"
   ]
 }
