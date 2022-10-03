@@ -29,17 +29,16 @@ const Navbar = () => {
           <Link to="/acmofficial">
             <li className="p-5 cursor-pointer jump ">Home</li>
           </Link>
-          <li className="p-5 cursor-pointer jump">Events</li>
-          <li className=" p-5  w-[170px] cursor-pointer jump ">
-            why joining us ?
-          </li>
+          <li className="p-5 cursor-pointer jump">About</li>
+
           <li className="p-5 cursor-pointer jump " onClick={openClub_function}>
             <Link to="/Club"> Clubs </Link>
           </li>
           <li className=" p-5 cursor-pointer jump " onClick={openBlog_function}>
-            <Link to="/blog"> Blogs </Link>
+            <Link to="/blog"> Objective </Link>
           </li>
-          <li className=" p-5 cursor-pointer jump">Sponsors</li>
+          <li className=" p-5 cursor-pointer jump">Faculty & Student</li>
+          <li className=" p-5 cursor-pointer jump">Events</li>
         </ul>
         <div onClick={navbar_click} className="block md:hidden">
           {!closer ? (

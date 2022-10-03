@@ -1,14 +1,49 @@
-.gridStyle{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "About Carousel";
+.gridStyle {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "About Carousel";
 }
-.About{
-    grid-area: "About";
+.About {
+  grid-area: "About";
 }
-.Carousel{
-    grid-area: "Carousel";
+.Carousel {
+  grid-area: "Carousel";
+}
+
+.addedbg1 {
+  background-image: linear-gradient(
+    to right bottom,
+    #a5f3fc,
+    #bbf4ff,
+    #d1f5ff,
+    #e5f6ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #e5f6ff,
+    #d1f5ff,
+    #bbf4ff,
+    #a5f3fc
+  );
+}
+
+.addedbg2 {
+  background-image: linear-gradient(
+    to left bottom,
+    #a5f3fc,
+    #bbf4ff,
+    #d1f5ff,
+    #e5f6ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #e5f6ff,
+    #d1f5ff,
+    #bbf4ff,
+    #a5f3fc
+  );
 }

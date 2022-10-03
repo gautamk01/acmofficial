@@ -7,3 +7,39 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+.addedbg1 {
+  background-image: linear-gradient(
+    to right bottom,
+    #a5f3fc,
+    #bbf4ff,
+    #d1f5ff,
+    #e5f6ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #e5f6ff,
+    #d1f5ff,
+    #bbf4ff,
+    #a5f3fc
+  );
+}
+
+.addedbg2 {
+  background-image: linear-gradient(
+    to left bottom,
+    #a5f3fc,
+    #bbf4ff,
+    #d1f5ff,
+    #e5f6ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #f4f9ff,
+    #e5f6ff,
+    #d1f5ff,
+    #bbf4ff,
+    #a5f3fc
+  );
+}
