@@ -1,10 +1,11 @@
 import React from "react";
 import Carousel from "./Carousel.js";
 import './about.css'
+
 function About(){
     return ( 
-        <div className="h-[100vh] w-[100%] gridStyle bg-gradient-to-r from-white to-cyan-200 font-poppins">
-            <div className="flex-col pl-2 w-[80%] About space-y-5">
+        <div id="AboutUs" className="h-[100vh] w-[100%] gridStyle bg-gradient-to-r from-white to-cyan-200 font-poppins">
+            <div id="details-AboutUs" className="flex-col pl-2 w-[80%] About space-y-5">
                 <p className="ml-3">CREATIVE MIND, CREATIVE WORK</p>
                 <h1 className="text-6xl font-bold">About Our Chapter</h1>
                 <p className="text-slate-400">

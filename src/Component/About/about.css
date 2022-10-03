@@ -1,5 +1,6 @@
 .gridStyle{
     display: grid;
+    overflow: auto;
     justify-items: center;
     align-items: center;
     grid-template-columns: 50% 50%;
@@ -12,3 +13,14 @@
 .Carousel{
     grid-area: "Carousel";
 }
+@media only screen and (max-width: 768px){
+    .gridStyle{
+        display: grid;
+        overflow:auto;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "About";
+    }
+  }
