@@ -15,4 +15,5 @@ export default function main_page_component() {
       <Footer/>
     </>
   );
+>>>>>>> master
 }
