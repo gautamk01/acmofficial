@@ -1,5 +1,4 @@
 import React from "react";
-import Ecard from "../FacultyCard/Ecard";
 import FacultyMembers from "../FacultyCard/FacultyMembers";
 function PEP() {
   return (

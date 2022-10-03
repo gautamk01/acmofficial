@@ -14,10 +14,10 @@ export default function Club() {
     m5,
     "https://dt19wmazj2dns.cloudfront.net/wp-content/uploads/2022/05/amrita-admission-amritapuri-campus.jpg",
   ];
-  const [token, settoken] = useState(1);
+  const [token, settoken] = useState(5);
   return (
     <div className="main_club flex flex-row h-[86vh] w-[100%] text-white">
-      <div className="club_area h-[100%] w-[60%]  flex flex-wrap justify-center items-center  bg-gradient-to-b from-white to-cyan-100 font-poppins">
+      <div className="club_area h-[100%] w-[60%]  flex flex-wrap justify-center items-center  addedbg1 font-poppins">
         <ul>
           <li>
             <a
@@ -91,10 +91,12 @@ export default function Club() {
           </li>
         </ul>
       </div>
-      <div className={`image_area  h-[100%] w-[40%]  `}>
+      <div
+        className={`image_area  h-[100%] w-[40%] flex flex-wrap items-center justify-center addedbg2 `}
+      >
         <img
           src={image_array[token]}
-          className=" object-cover h-[100%] w-[100%] rounded-lg"
+          className=" object-cover h-[80%] w-[70%] rounded-lg"
           alt="SOmthing"
         />
       </div>
