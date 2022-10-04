@@ -26,16 +26,16 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-[14vh]  mx-auto  px-4 text-black bg-slate-700 bg-color w-[100%] fixed z-10 ">
       <img src={Logo} alt="something" className=" h-[3.6rem] relative "></img>
       <ul className="hidden md:flex relative">
-        <Link to="/acmofficial">
-          <li className="p-5 cursor-pointer jump ">Home</li>
+        <Link smooth to="#HomeLog">
+          <li className="m-5 cursor-pointer jump ">Home</li>
         </Link>
-        <li className="p-5 cursor-pointer jump">
+        <li className="m-5 cursor-pointer jump">
           <Link smooth to="#AboutUs">
             About
           </Link>
         </li>
 
-        <li className="p-5 cursor-pointer jump " onClick={openClub_function}>
+        <li className="m-5 cursor-pointer jump " onClick={openClub_function}>
           <Link smooth to="#our-objective">
             Our Objective
           </Link>

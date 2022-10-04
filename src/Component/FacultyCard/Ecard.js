@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+
 import "./Ecard.css";
 
 function Ecard(props) {
   const [title, setTitle] = useState(false);
-
+  console.log(props.image);
   return (
     <div className="h-[250px] w-[250px]  m-3  main">
       {/* *****************Main div*************** */}
@@ -22,9 +23,7 @@ function Ecard(props) {
         }}
       >
         {/* this is the card Section and UseState is Also used */}
-        <div
-          className={`img_box bg-[url("https://i.pinimg.com/736x/69/e4/8d/69e48d38b4c6e40aefcc5dfb5e36b7c8.jpg")]`}
-        />
+        <div className={`img_box ${props.image}`} />
         {/* This is the Image inside the funCard */}
         {title && (
           <div className=" flex justify-self-center mt-[10px] self-center">
@@ -40,7 +39,6 @@ function Ecard(props) {
           </div>
         )}
         {/* This the Icon Section of the Card  */}
-
         <div className="ket text-center">
           {/* This is where our card Title and */}
           <div>
