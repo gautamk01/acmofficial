@@ -16,7 +16,10 @@ export default function Club() {
   ];
   const [token, settoken] = useState(5);
   return (
-    <div className="main_club flex flex-row h-[86vh] w-[100%] text-white">
+    <div
+      className="main_club flex flex-row h-[86vh] w-[100%] text-white"
+      id="Club-page"
+    >
       <div className="club_area h-[100%] w-[60%]  flex flex-wrap justify-center items-center  addedbg1 font-poppins">
         <ul>
           <li>

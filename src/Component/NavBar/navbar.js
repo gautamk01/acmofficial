@@ -4,6 +4,7 @@ import { SiOpencollective } from "react-icons/si";
 import "./nav.css";
 import Logo from "../../img/ACMam.png";
 import { Link } from "react-router-dom";
+import { HashLink as Kink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [closer, setCloser] = useState(false);
@@ -29,10 +30,16 @@ const Navbar = () => {
           <Link to="/acmofficial">
             <li className="p-5 cursor-pointer jump ">Home</li>
           </Link>
-          <li className="p-5 cursor-pointer jump">About</li>
+          <li className="p-5 cursor-pointer jump">
+            <Kink smooth to="#AboutUs">
+              About
+            </Kink>
+          </li>
 
           <li className="p-5 cursor-pointer jump " onClick={openClub_function}>
-            <Link to="/Club"> Clubs </Link>
+            <Link smooth to="/club">
+              Clubs
+            </Link>
           </li>
           <li className=" p-5 cursor-pointer jump " onClick={openBlog_function}>
             <Link to="/blog"> Objective </Link>
