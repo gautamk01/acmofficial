@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Component/NavBar/navbar";
-import Blog from "./Component/Blog/blog";
+
 import Home from "./Component/Home/home";
 import Club from "./Component/Club/club";
 import About from "./Component/About/About";
