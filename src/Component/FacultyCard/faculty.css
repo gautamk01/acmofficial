@@ -1,17 +1,32 @@
 .faculty-title {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 58px;
-    line-height: 15px;
-    text-align: center;
-    letter-spacing: 0.02em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.card-4 {
-    margin-left: 50%;
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 8px;
 }
-
-.card-5 {
-    margin-left: 50%;
+.parent .ECA1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.parent .ECA2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.parent .ECA3 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.parent .ECA4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.parent .ECA5 {
+  grid-area: 2 / 3 / 3 / 4;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import FacultyMembers from "../FacultyCard/FacultyMembers";
 function PEP() {
   return (
-    <div className="h-[100vh] w-[100%] p-20 addedbg1  ">
+    <div className="h-[100vh] w-[100%] p-1 addedbg1  ">
       <FacultyMembers />
     </div>
   );

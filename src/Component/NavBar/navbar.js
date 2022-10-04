@@ -3,8 +3,8 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { SiOpencollective } from "react-icons/si";
 import "./nav.css";
 import Logo from "../../img/ACMam.png";
-import { Link } from "react-router-dom";
-import { HashLink as Kink } from "react-router-hash-link";
+
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [closer, setCloser] = useState(false);
@@ -23,27 +23,30 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-[14vh]  px-4 text-black bg-slate-700 bg-color  fixed ">
+    <div className="flex justify-between items-center h-[14vh]  mx-auto  px-4 text-black bg-slate-700 bg-color w-[100%] fixed z-10 ">
       <img src={Logo} alt="something" className=" h-[3.6rem] relative "></img>
       <ul className="hidden md:flex relative">
         <Link to="/acmofficial">
           <li className="p-5 cursor-pointer jump ">Home</li>
         </Link>
         <li className="p-5 cursor-pointer jump">
-          <Kink smooth to="#AboutUs">
+          <Link smooth to="#AboutUs">
             About
-          </Kink>
+          </Link>
         </li>
 
         <li className="p-5 cursor-pointer jump " onClick={openClub_function}>
-          <Link smooth to="/club">
-            Clubs
+          <Link smooth to="#our-objective">
+            Our Objective
           </Link>
         </li>
         <li className=" p-5 cursor-pointer jump " onClick={openBlog_function}>
-          <Link to="/blog"> Objective </Link>
+          <Link smooth to="#FacultySection">
+            Faculty
+          </Link>
         </li>
-        <li className=" p-5 cursor-pointer jump">Faculty & Student</li>
+        <li className=" p-5 cursor-pointer jump"></li>
+        <li className=" p-5 cursor-pointer jump">Faculty</li>
         <li className=" p-5 cursor-pointer jump">Events</li>
       </ul>
       <div onClick={navbar_click} className="block md:hidden">
