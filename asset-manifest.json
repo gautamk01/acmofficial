@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acmofficial/static/css/main.ee009c9d.css",
-    "main.js": "/acmofficial/static/js/main.e7e06615.js",
+    "main.css": "/acmofficial/static/css/main.d2a56d55.css",
+    "main.js": "/acmofficial/static/js/main.43be9970.js",
     "static/media/image3.jpg": "/acmofficial/static/media/image3.c2d51d49591fdb7aada1.jpg",
     "static/media/image1.jpg": "/acmofficial/static/media/image1.9d6dea471d7be0ba73ee.jpg",
     "static/media/p2.jpeg": "/acmofficial/static/media/p2.aa802887ad8a2e9a1448.jpeg",
@@ -12,20 +12,18 @@
     "static/media/Rectangle 8.png": "/acmofficial/static/media/Rectangle 8.0a79da7c7600d2b8439e.png",
     "static/media/Rectangle 7.png": "/acmofficial/static/media/Rectangle 7.6ed07baa20674e0a8b82.png",
     "static/media/p4.jpg": "/acmofficial/static/media/p4.98f9a8416c8ac8e02499.jpg",
-    "static/media/Greeshma.png": "/acmofficial/static/media/Greeshma.ab7486fd98362c2c6916.png",
     "static/media/Sarath.png": "/acmofficial/static/media/Sarath.75d1b359142be381bf59.png",
     "static/media/Krishna.png": "/acmofficial/static/media/Krishna.f14975ddbeaaf461cbf1.png",
     "static/media/Jyotisha.png": "/acmofficial/static/media/Jyotisha.a1a8d3f0f37abcdc4609.png",
-    "static/media/Binu.png": "/acmofficial/static/media/Binu.caf2b7052457e1f39471.png",
     "static/media/ACMam.png": "/acmofficial/static/media/ACMam.815e36ef8db6406fcc3f.png",
     "static/media/p5.jpeg": "/acmofficial/static/media/p5.8e6eaaafb120d99d82fa.jpeg",
     "static/media/p1.jpg": "/acmofficial/static/media/p1.3668eff66bf51e17c7b5.jpg",
     "index.html": "/acmofficial/index.html",
-    "main.ee009c9d.css.map": "/acmofficial/static/css/main.ee009c9d.css.map",
-    "main.e7e06615.js.map": "/acmofficial/static/js/main.e7e06615.js.map"
+    "main.d2a56d55.css.map": "/acmofficial/static/css/main.d2a56d55.css.map",
+    "main.43be9970.js.map": "/acmofficial/static/js/main.43be9970.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee009c9d.css",
-    "static/js/main.e7e06615.js"
+    "static/css/main.d2a56d55.css",
+    "static/js/main.43be9970.js"
   ]
 }
