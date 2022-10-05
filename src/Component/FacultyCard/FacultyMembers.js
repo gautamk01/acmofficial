@@ -18,7 +18,10 @@ export default function FacultyMembers() {
   });
 
   return (
-    <div className="faculty-page h-[100vh] w-[100%] box-border flex flex-wrap flex-column items-center justify-center">
+    <div
+      className="faculty-page h-[100vh] w-[100%]
+    p-30 box-border flex flex-wrap flex-column items-center justify-center"
+    >
       <p className="faculty-title mt-[5vh] mb-[4vh]">Faculty Management</p>
       <div className="parent">{facultyCards}</div>
     </div>

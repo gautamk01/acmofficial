@@ -45,9 +45,16 @@ const Navbar = () => {
             Faculty
           </Link>
         </li>
-        <li className=" p-5 cursor-pointer jump"></li>
-        <li className=" p-5 cursor-pointer jump">Faculty</li>
-        <li className=" p-5 cursor-pointer jump">Events</li>
+        <li className=" p-5 cursor-pointer jump">
+          <Link smooth to="#StudentSection">
+            Student
+          </Link>
+        </li>
+        <li className=" p-5 cursor-pointer jump">
+          <Link smooth to="#Events">
+            Event
+          </Link>
+        </li>
       </ul>
       <div onClick={navbar_click} className="block md:hidden">
         {!closer ? (

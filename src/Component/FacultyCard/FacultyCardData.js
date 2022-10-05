@@ -11,21 +11,21 @@ const cardData = [
     name: "Ms. Greesham Sarath",
     position: "Chairperson",
     imageLink:
-      "bg-[url('https://amrita.edu/wp-content/uploads/2014/02/Binu-P-K_asst-professor_cse_engineering_amritauniversity_amritapuri.jpg')]",
+      "bg-[url('https://amrita.edu/wp-content/uploads/2014/02/Greeshma-Sarath_asst-professor_cse_engineering_amritapuri.jpg')]",
   },
   {
     id: 3,
     name: "Dr. Jyothisha J Nair",
     position: "Executive Committee Member",
     imageLink:
-      "bg-[url('https://amrita.edu/wp-content/uploads/2014/02/Binu-P-K_asst-professor_cse_engineering_amritauniversity_amritapuri.jpg')]",
+      "bg-[url('https://amrita.edu/wp-content/uploads/2014/01/Dr-Jyothisha-J-Nair_Associate-Professor_Vice-Chairperson_cse_engineering_amritauniversity_amritapuri.jpg')]",
   },
   {
     id: 4,
     name: "Mr. Krishna S",
     position: "Executive Committee Member",
     imageLink:
-      "bg-[url('https://amrita.edu/wp-content/uploads/2014/02/Binu-P-K_asst-professor_cse_engineering_amritauniversity_amritapuri.jpg')]",
+      "bg-[url('https://amrita.edu/wp-content/uploads/2014/08/Krishna-S_faculty-associate_cse_engineering_amritauniversity_amritapuri.jpg')]",
   },
   {
     id: 5,
