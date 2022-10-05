@@ -28,7 +28,7 @@ const news = [
 function News() {
   return (
     <div
-      className=" p-10 font-poppins flex flex-col items-center addedbg1"
+      className=" p-10 font-poppins flex flex-col items-center pt-[110px] addedbg1"
       id="Events"
     >
       <h1 className="font-semibold text-5xl text-center">Read Our News</h1>

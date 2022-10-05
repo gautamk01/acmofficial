@@ -1,0 +1,26 @@
+.parallax {
+    background-image: url('campus.jpg');
+    width: auto;
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+  }
+@media only screen and (max-device-width: 1366px) {
+.parallax 
+{
+      background-attachment: scroll;
+}
+}

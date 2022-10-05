@@ -2,7 +2,7 @@ import Ecard from "../FacultyCard/Ecard";
 
 const StuManagement = () => {
   return (
-    <div className="p-2 h-[100vh] addedbg2" id="StudentSection">
+    <div className="p-2 h-[120vh] pt-[150px] addedbg2" id="StudentSection">
       <div className="mt-10">
         <div className="text-6xl tracking-wider sm:mb-10 text-center">
           Student Management
