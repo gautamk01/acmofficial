@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="p-20 addedbg2">
       <footer>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-4 gap-4 grid-cols-1 gap-4">
           <div className="flex">
             <svg className="svg-icon" viewBox="0 0 20 20">
               <path
